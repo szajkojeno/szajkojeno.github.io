@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header,
+footer {
+    background-color: aqua;
+    padding: 20px;
+}
+
+nav {
+    width: 25%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    background-color: brown;
+    padding: 8%;
+}
+
+nav li:hover {
+    background-color: rgb(116, 95, 95);
+}
+
+nav li a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+
+.main.content {
+    width: 75%;
+}
+
+.column {
+    padding: 10px;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
