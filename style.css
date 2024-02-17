@@ -1,0 +1,46 @@
+body{padding: 0px;margin: 0px;}
+#logo {
+    height: 50px;
+    width: 50px;
+    transition: 1s;
+    float: left;
+
+
+}
+
+#logo:hover {
+    transform: rotate(360deg);
+}
+.valaszok{list-style-type: none; float: right;color: white;background-color: black;}
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 60px;
+}
+ form{border: 2px solid black; text-align: center;}
+.kk {
+    border-top: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center; 
+    
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#email {
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+} 
+#email:hover{background-color: grey;}
