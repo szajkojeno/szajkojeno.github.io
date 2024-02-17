@@ -14,9 +14,11 @@ body{padding: 0px;margin: 0px;}
 .valaszok{list-style-type: none; float: right;color: white;background-color: black;}
 h1 {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid white;
     padding: 20px;
     margin: 60px;
+    color: white;
+    background: black;
 }
  form{border: 2px solid black; text-align: center;}
 .kk {
