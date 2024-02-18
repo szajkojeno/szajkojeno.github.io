@@ -44,5 +44,6 @@ td {
     border-radius: 10%;
     background-color: black;
     color: white;
+    padding: 1%;
 } 
 #email:hover{background-color: grey;}
