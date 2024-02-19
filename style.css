@@ -1,17 +1,28 @@
+
+
+
+/* Tablet méretű képernyőkre */
+@media only screen and (min-width: 768px) {
+    /* Itt állítsd be a tablet méretű képernyőkre vonatkozó stílusokat */
+}
+
+/* Mobil méretű képernyőkre */
+@media only screen and (max-width: 767px) {
+    /* Itt állítsd be a mobil méretű képernyőkre vonatkozó stílusokat */
+}
+
 body{padding: 0px;margin: 0px;}
 #logo {
     height: 50px;
     width: 50px;
     transition: 1s;
     float: left;
-
-
 }
 
 #logo:hover {
     transform: rotate(360deg);
 }
-.valaszok{list-style-type: none; float: right;color: white;background-color: black;}
+
 h1 {
     text-align: center;
     border: 2px solid white;
@@ -20,7 +31,11 @@ h1 {
     color: white;
     background: black;
 }
+
+.valaszok{list-style-type: none; float: right;color: white;background-color: black;}
+
  form{border: 2px solid black; text-align: center;}
+
 .kk {
     border-top: 2px solid black;
 }
@@ -28,12 +43,9 @@ h1 {
 table {
     border-collapse: collapse;
     text-align: center; 
-    
-
 }
 
-th,
-td {
+th,td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
