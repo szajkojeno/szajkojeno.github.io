@@ -1,9 +1,10 @@
+@media only screen and (max-width: 770px) {}
 
-@media only screen and (max-width: 770px) {
-    
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
-body{padding: 0px;margin: 0px;}
 #logo {
     height: 50px;
     width: 50px;
@@ -24,9 +25,17 @@ h1 {
     background: black;
 }
 
-.valaszok{list-style-type: none; float: right;color: white;background-color: black;}
+.valaszok {
+    list-style-type: none;
+    float: right;
+    color: white;
+    background-color: black;
+}
 
- form{border: 2px solid black; text-align: center;}
+form {
+    border: 2px solid black;
+    text-align: center;
+}
 
 .kk {
     border-top: 2px solid black;
@@ -34,10 +43,11 @@ h1 {
 
 table {
     border-collapse: collapse;
-    text-align: center; 
+    text-align: center;
 }
 
-th,td {
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
@@ -49,5 +59,8 @@ th,td {
     background-color: black;
     color: white;
     padding: 1%;
-} 
-#email:hover{background-color: grey;}
+}
+
+#email:hover {
+    background-color: grey;
+}
