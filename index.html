@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>alkalom8hf</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/smile.ico" type="image/x-icon">
@@ -23,12 +22,28 @@
         <li>középső ajtó</li>
     </ul>
 
-    <img src="img/ajtok.jpg" alt="szobak" usemap="#ajtok">
-    <map name="ajtok">
-        <area shape="rect" coords="95,108,270,348" alt="1.ajto" href="1szoba.html">
-        <area shape="rect" coords="436,101,606,335" alt="2.ajto" href="2szoba.html">
-        <area shape="rect" coords="725,111,868,346" alt="3.ajto" href="3szoba.html">
+    <picture>
+        
+
+        <source media="(max-width:770px)" srcset="img/telefon-ajtok.jpg"  usemap="ajtok" >
+        
+
+
+        <img src="img/ajtok.jpg" alt="szobak" usemap="#ajtok" >
+
+     <map name="ajtok">
+        <area shape="rect" coords="114,151,298,403" alt="1.ajto" href="1szoba.html">
+        <area shape="rect" coords="416,150,601,398" alt="2.ajto" href="2szoba.html">
+        <area shape="rect" coords="723,146,907,392" alt="3.ajto" href="3szoba.html">
+
+        <area shape="rect" coords="52,92,138,246" alt="1.ajto" href="1szoba.html">
+            <area shape="rect" coords="193,91,278,244" alt="2.ajto" href="2szoba.html">
+            <area shape="rect" coords="334,89,423,242" alt="3.ajto" href="3szoba.html">
     </map>
+
+      </picture>
+      
+    
 
     <p style="text-align: center; border-top: 2px solid black;">3 szoba van abból 1 nagy veszélyt rejt, a másik 2
         szobával viszont nagy szerencsére

@@ -1,14 +1,6 @@
 
-
-
-/* Tablet méretű képernyőkre */
-@media only screen and (min-width: 768px) {
-    /* Itt állítsd be a tablet méretű képernyőkre vonatkozó stílusokat */
-}
-
-/* Mobil méretű képernyőkre */
-@media only screen and (max-width: 767px) {
-    /* Itt állítsd be a mobil méretű képernyőkre vonatkozó stílusokat */
+@media only screen and (max-width: 770px) {
+    
 }
 
 body{padding: 0px;margin: 0px;}
