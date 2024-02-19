@@ -33,7 +33,10 @@ h1 {
 }
 
 form {
-    border: 2px solid black;
+    color: white;
+    background: gray;
+    border-top:  2px solid black;
+    border-bottom: 2px solid black;
     text-align: center;
 }
 
