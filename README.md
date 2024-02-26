@@ -1,2 +1,0 @@
-# szajkojeno.github.io
-prooktatas

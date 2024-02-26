@@ -3,113 +3,158 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>alkalom8hf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/smile.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        img {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            
+        }
+    </style>
+    <title>strandoshazifeladat</title>
 </head>
 
 <body>
-    <p id="logo"><img src="img/logo.jpg" width="100%">
-    <h1> Szoba választó</h1>
+    <div id="oldal">
+        <header> <img src="img/fejlec.jpg" alt="fejlec" width="95%" height="150px"
+                style="border-radius: 15px;margin-left: 2.5%;margin-top: 10px; border: 2px solid rgb(0, 62, 142);">
+        </header>
+        <form action="" method="post" class="roboto-thin">
+            <nav>
+                <h3>Menü</h3>
+                <a href="#balatonh">Balaton</a>
+                <a href="#tiszatoh">Tisza-tó</a>
+                <a href="#szeliditoh">Szelidi-tó</a>
+            </nav>
+            <h3 class="roboto-thin">Kérem töltse ki a jelentkezési űrlapot</h3>
+            <form action="#" method="POST" class="roboto-thin">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" required>
 
-    </p>
-    <ul class="valaszok">
-        <strong>A képek kattinthatóak <br></strong>
-        3 lehetséges válasz van
-        <li>baloldali ajtó</li>
-        <li>jobboldali ajtó</li>
-        <li>középső ajtó</li>
-    </ul>
+                <label for="email">E-mail cím:</label>
+                <input type="email" id="email" name="email" required>
 
-    <picture>
-        
+                <label for="phone">Telefonszám:</label>
+                <input type="text" id="phone" name="phone" required>
 
-        <source media="(max-width:770px)" srcset="img/telefon-ajtok.jpg"  usemap="ajtok" >
-        
+                <label for="lake">Melyik tó érdekli?</label>
+                <select id="lake" name="lake">
+                    <option value="Balaton">Balaton</option>
+                    <option value="Tisza-tó">Tisza-tó</option>
+                    <option value="Szelidi-tó">Szelidi-tó</option>
+                </select>
 
+                <label for="accommodation">Milyen szállást keres?</label>
+                <select id="accommodation" name="accommodation">
+                    <option value="szálloda">Szálloda</option>
+                    <option value="apartmanház">Apartmanház</option>
+                    <option value="kemping">Kemping</option>
+                </select>
 
-        <img src="img/ajtok.jpg" alt="szobak" usemap="#ajtok" >
+                <label for="board">Milyen ellátás legyen?</label>
+                <select id="board" name="board">
+                    <option value="teljes">Teljes</option>
+                    <option value="félpanzió">Fél panzió</option>
+                    <option value="reggeli">Csak reggeli</option>
+                    <option value="nemkérek">Nem kérek ellátást</option>
+                </select>
 
-     <map name="ajtok">
-        <area shape="rect" coords="114,151,298,403" alt="1.ajto" href="1szoba.html">
-        <area shape="rect" coords="416,150,601,398" alt="2.ajto" href="2szoba.html">
-        <area shape="rect" coords="723,146,907,392" alt="3.ajto" href="3szoba.html">
+                <label for="message">Egyéb üzenet:</label>
+                <textarea id="message" name="message"></textarea>
 
-        <area shape="rect" coords="40,72,104,194" alt="1.ajto" href="1szoba.html">
-            <area shape="rect" coords="147,71,212,193" alt="2.ajto" href="2szoba.html">
-            <area shape="rect" coords="255,69,321,189" alt="3.ajto" href="3szoba.html">
-    </map>
+                <input type="submit" value="Mehet">
+            </form>
+            <div>
+                <h2 id="balatonh">Balaton</h2>
+                <section id="balaton" class="roboto-thin">
 
-      </picture>
-      
-    
+                    <img  src="img/balaton.jpg" alt="balaton" width="30%" style="display: inline;">
+                    <p>A közel 600 négyzetkilométer
+                        kiterjedésű tó könnyen
+                        felmelegszik nyaranta, ezért
+                        fokozatosan mélyülő partjai
+                        vonzzák a fürdeni vágyókat:
 
-    <p style="text-align: center; font-size: 20px;">3 szoba van abból 1 nagy veszélyt rejt, a másik 2
-        szobával viszont nagy szerencsére
-        lelsz <br>Válassz hát</p>
-
-    <form action="">
-
-        <label for="1ajto">1.ajtó</label>
-        <input type="radio" name="ajtok" id="1ajto" value="1ajto" required>
-
-        <label for="2ajto">2.ajtó</label>
-        <input type="radio" name="ajtok" id="2ajto" value="2ajto" required>
-
-
-        <label for="3ajto">3.ajtó</label>
-        <input type="radio" name="ajtok" id="3ajto" value="3ajto" required>
-
-       
-        <input type="submit"  onclick="alert('Miért nyomkodod,mondtam hogy csak dísznek vannak')" value="Küldés">
-        <p><small>"A gombok csak dísznek vannak"</small></p>
-
-    </form>
-    <footer>
-        <p class="kk">
-            2/3 az esélye hogy nyersz de mégis megvan az esélye a vesztésre.
-
-        </p>
-        <p>
-            Lehetséges válaszok
-        </p>
-        <table>
-            <thead>
-                <tr>
-                    <th>1.szoba</th>
-                    <th>2.szoba</th>
-                    <th>3.szoba</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1 Gonosz Sárkány</td>
-                    <td>1 Millió forint</td>
-                    <td>1 Dzsin </td>
-                </tr>
-                <tr>
-                    <td>1 Autó</td>
-                    <td>1 Új tv</td>
-                    <td>1 Gyémánt</td>
-                </tr>
-                <tr>
-                    <td>1 Bomba</td>
-                    <td>1 Vérszomjas Oroszlán</td>
-                    <td>1 Gonosz Boszorkány</td>
-                </tr>
-            </tbody>
-        </table>
-        <p style="background: gray; padding: 3%; margin-bottom: 0px; color: white;">Érdekel hogy melyikre nyomtál, ha megszeretnéd
-            osztani a válaszod erre az emailre megteheted<a id="email"
-                href="mailto:szajkotanulos@gmail.com?subject=ezt az ajtót választottam.">Email</a></p>
-
-
-
-        <p
-            style="text-align: center; padding-top: 40px; padding-bottom:20px; margin-bottom: 0px; margin-top: 0px; color: white; background: black;">
-            &#169;minden jog fenntartva</p>
-    </footer>
+                        A Balaton (költői nevén: „a magyar tenger”, becenevén: Balcsi, németül: Plattensee, latinul:
+                        Lacus
+                        Pelso, horvátul: Blatno jezero) tó a Dunántúlon, Közép-Európa legnagyobb tava, Magyarország
+                        vízrajzának
+                        meghatározó eleme. Könnyen felmelegedő, sekély vize kiválóan alkalmassá teszi a fürdésre és
+                        sportolásra,
+                        élővilága rendkívül gazdag, a táj változatos vulkanikus kúpjaival sok tekintetben egyedi.
+                        Az 59 800 hektár területen fekvő vizes élőhely keleti medencéjét a Tihanyi-félsziget választja
+                        el a tó többi
+                        részétől. Déli partjánál medre sekélyebb. Északi oldalán található a badacsonyi borvidék és a
+                        Tapolcai-medence, jellegzetes vulkáni tanúhegyeivel.
+                        A Balaton és környéke Budapest mellett az ország turisztikailag leglátogatottabb területe,
+                        2004-ben elnyerte
+                        az Örökségünk – Somogyország Kincse címet is.Környékén gyógyfürdők, termálforrások találhatók. A
+                        „Balaton fővárosa” címet hivatalosan Keszthely viseli, de Siófok a déli part, Balatonfüred pedig
+                        az északi
+                        part fővárosaként tekint magára. A tó környékét a közigazgatási széttagoltság jellemzi, mert
+                        három
+                        megyéhez, három tervezési-statisztikai régióhoz tartozik.
+                    </p>
+                </section>
+                <h2 id="tiszatoh">Tisza-tó</h2>
+                <section id="tiszato" class="roboto-thin">
+                    <img  src="img/tiszato.jpg" alt="tiszato" width="30%">
+                    <p>A Tisza-tó (1988-ig Kiskörei víztározó) Magyarország második legnagyobb tava és legnagyobb
+                        mesterséges
+                        tava a Tiszán, az Alföld északi részén. Létrehozásának legfontosabb okai a Kiskörei Vízerőmű
+                        működéséhez
+                        szükséges egyenletes vízhozam biztosítása volt, valamint az ugyanebben az időszakban,
+                        Tiszaújvárosban
+                        telepített új Tiszai Hőerőmű működéséhez szükséges magas vízszint biztosítása duzzasztással.
+                        1967-1973 között építették fel a Kiskörei Erőművet a duzzasztógáttal a tiszai áradások
+                        szabályozása és az
+                        Alföld hatékonyabb vízellátása végett. Feltöltése 1978-ban fejeződött be. A mesterséges tó vize
+                        egykori
+                        holtágakat, vízfolyásokat, legelőket, erdőket, szántóföldeket borított el.
+                        Azóta kialakult az ökológiája. Változatos növény- és állatvilág talált benne otthonra. A tó
+                        északi partján
+                        madárrezervátum is működik. 1999 óta a Hortobágyi Nemzeti Park bemutatóterületeként az UNESCO
+                        világörökség
+                        része.</p>
+                </section>
+                <h2 id="szeliditoh">Szelidi-tó</h2>
+                <section id="szelidto" class="roboto-thin">
+                    <img  src="img/szelidto.jpg" alt="szelidto" width="30%">
+                    <p>A Szelidi-tó Bács-Kiskun vármegye egyik legjelentősebb turisztikai célpontja, Dunapataj
+                        nagyközség közelében,
+                        a település határain belül.A tó a nevét a víz közvetlen közelében fekvő faluról, illetve annak
+                        pusztulása
+                        után a közelben elterülő szántóföldi művelésre alkalmas Szelid pusztáról kapta. Szelid falucska
+                        a török
+                        adóösszeírások szerint az 1540-es években 20-25 családból állt (kb. 100 fő), eszerint átlagos
+                        alföldi magyar
+                        falu lehetett. A 16. század második felében elpusztult; határát onnantól, mint pusztát mindig a
+                        patajiak
+                        művelték és mindig Patajhoz tartozott.
+                        A tó nevét legendák is magyarázzák. Az egyik szerint Szelid neve a közeli Várdomb erődítményével
+                        és a török
+                        hódoltság harcaival függhet össze, ugyanis a török csapatok a magyar túlerőt látva, megállásra
+                        és
+                        kompromisszumokra kényszerültek, 'megszelídültek' ezen a területen. Egy másik legenda szerint
+                        Bence vitéz
+                        úgy meghajszolta lovait, hogy azok patái elvástak. De miután a lovak hosszasan a tó vizében
+                        állva ittak,
+                        sebeik gyorsan rendbe jöttek. A legvalószínűbb, hogy a tó neve egyáltalán nincs összefüggésben a
+                        szelíd
+                        melléknévvel. Minden bizonnyal a szel magyar igetőből származik.</p>
+                </section>
+                <footer>
+                    Made by Jenő&copy;-Minden jog fentartva
+                </footer>
+            </div>
+    </div>
 </body>
 
 </html>
