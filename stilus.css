@@ -95,4 +95,6 @@ section {
             grid-row: 2 / 4;
             background-color: azure;
         
-        }}
+        } 
+    ul li{font-size: small;}
+h1{font-size: large;}}
