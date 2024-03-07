@@ -77,4 +77,22 @@ section {
     background: #125688;
     color: white;
   }
-  @media screen and (max-width: 768px){ ul li{font-size: smaller;}}
+  @media screen and (max-width: 768px){ aside {
+    grid-column: 1 / 6;
+    grid-row: 2 / 4;} 
+    main {
+        grid-column: 6 / 13;
+        grid-row: 2 / 4;
+        background-color: azure;
+    
+    }}
+  @media screen and (max-width: 500px){ 
+    aside {
+        grid-column: 1 / 6;
+        grid-row: 2 / 4;} 
+        main {
+            grid-column: 6 / 13;
+            grid-row: 2 / 4;
+            background-color: azure;
+        
+        }}
