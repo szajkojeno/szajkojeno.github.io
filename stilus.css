@@ -41,7 +41,7 @@ h2 a{
   text-decoration: none;
   color: black;
 }
-h2 a:hover{background-color: rgb(55, 55, 196);}
+h2 a:hover{background-color: rgb(55, 55, 196);color: #f2f2f2;}
 main {
   grid-column: 1/ 13;
   grid-row: 3/ 4;
