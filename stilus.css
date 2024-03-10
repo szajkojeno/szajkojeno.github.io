@@ -31,9 +31,7 @@ footer {
   background-color: rgb(42, 0, 147);
   color: white;
 }
-header{position: -webkit-sticky;
-position: sticky;
-top: 0;z-index: 2;}
+
 h1 {
   font-size: 70px;
 }
