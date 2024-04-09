@@ -3,7 +3,10 @@ $(document).ready(function () {
 
     $("#monsterszovegCM").slideToggle();
     
-    $("#monsterszovegCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px", });
+    $("#monsterszovegCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({       width: "400px", // Szélesség növelése
+      "border-bottom-width": "50px", // Alsó szél szélességének növelése
+      left: "-=100px" // Balra mozgatás
+  }, "slow");
 
 
   });

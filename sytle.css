@@ -22,12 +22,13 @@
    img{width: 50px;margin: 30px; }
    img:hover{ width: 70px;}
   ul li{list-style-type: none;display: inline;text-align: center;}
-  li p{display: none;background-color: rgb(134, 130, 130);color: rgb(246, 242, 242);width: auto ;margin-bottom: 10px;}
+  li p{display: none;background-color: rgb(134, 130, 130);color: rgb(246, 242, 242);width: auto ;margin-bottom: 10px; border: 2px outset white;}
 .mellekkep{width: 50px;
   float: right; display: inline;background-color: rgb(134, 130, 130);}
   .main { grid-area: main; text-align: center;grid-column: 4/10;}
+ 
   
-  .lablec { grid-area: lablec; text-align: center;}
+  .lablec { grid-area: lablec; text-align: center;background-color: rgb(51, 51, 51);}
   
   .merienda {
     font-family: "Merienda", cursive;
@@ -35,4 +36,5 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+  @media only screen and (max-width: 600px){
+    .main{grid-column:2/12}}
