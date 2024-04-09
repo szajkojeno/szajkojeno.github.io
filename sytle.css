@@ -1,0 +1,38 @@
+*{padding: 0;margin: 0;box-sizing: border-box;background-color: black;color: white;}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 0.3fr 2.9fr 0.4fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec"
+      "nav nav nav nav nav nav nav nav nav nav nav nav"
+      "main main main main main main main main main main main main"
+      "lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec";
+  }
+  
+  
+  .fejlec { grid-area: fejlec; text-align: center;}
+  #logo{display:inline ;width: 60px;float: left;}
+  
+ 
+  .nav { grid-area: nav;  text-align: center; border: 2px solid white;}
+   img{width: 50px;margin: 30px; }
+   img:hover{ width: 70px;}
+  ul li{list-style-type: none;display: inline;text-align: center;}
+  li p{display: none;background-color: rgb(134, 130, 130);color: rgb(246, 242, 242);width: auto ;margin-bottom: 10px;}
+.mellekkep{width: 50px;
+  float: right; display: inline;background-color: rgb(134, 130, 130);}
+  .main { grid-area: main; text-align: center;grid-column: 4/10;}
+  
+  .lablec { grid-area: lablec; text-align: center;}
+  
+  .merienda {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
