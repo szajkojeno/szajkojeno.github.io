@@ -1,40 +1,122 @@
-*{padding: 0;margin: 0;box-sizing: border-box;background-color: black;color: white;}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
 
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 0.3fr 2.9fr 0.4fr;
-    grid-auto-columns: 1fr;
-    gap: 10px 10px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec"
-      "nav nav nav nav nav nav nav nav nav nav nav nav"
-      "main main main main main main main main main main main main"
-      "lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec";
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.3fr 2.9fr 0.4fr;
+  grid-auto-columns: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec"
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "main main main main main main main main main main main main"
+    "lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec";
+}
+
+
+.fejlec {
+  grid-area: fejlec;
+  text-align: center;
+  height: 20%;
+  font-size: 5rem;
+}
+
+#logo {
+  display: inline;
+  width: 60px;
+  float: left;
+}
+
+
+.nav {
+  grid-area: nav;
+  text-align: center;
+  border: 2px solid white;
+  background-color: rgb(20, 20, 20);
+  
+}
+
+img {
+  width: 50px;
+  margin: 30px;
+}
+
+img:hover {
+  width: 70px;
+ 
+
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+
+ p {
+  display: none;
+  background-color: rgb(134, 130, 130);
+  color: rgb(246, 242, 242);
+  width: auto;
+  margin-bottom: 10px;
+  border: 2px outset white;
+}
+
+.mellekkep {
+  width: 50px;
+  float: right;
+  display: inline;
+  background-color: rgb(134, 130, 130);
+}
+
+.visszagomb {
+  float: left;
+  display: inline;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+.main {
+  grid-area: main;
+  text-align: center;
+  grid-column: 4/10;
+}
+
+#kocka {
+  padding: 300px;
+  background-color: blanchedalmond;
+}
+
+.lablec {
+  grid-area: lablec;
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+}
+
+.merienda {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    grid-column: 2/12
+  }
+
+  .fejlec {
+    font-size: 3rem;
   }
   
-  
-  .fejlec { grid-area: fejlec; text-align: center;}
-  #logo{display:inline ;width: 60px;float: left;}
-  
- 
-  .nav { grid-area: nav;  text-align: center; border: 2px solid white;}
-   img{width: 50px;margin: 30px; }
-   img:hover{ width: 70px;}
-  ul li{list-style-type: none;display: inline;text-align: center;}
-  li p{display: none;background-color: rgb(134, 130, 130);color: rgb(246, 242, 242);width: auto ;margin-bottom: 10px; border: 2px outset white;}
-.mellekkep{width: 50px;
-  float: right; display: inline;background-color: rgb(134, 130, 130);}
-  .main { grid-area: main; text-align: center;grid-column: 4/10;}
  
   
-  .lablec { grid-area: lablec; text-align: center;background-color: rgb(51, 51, 51);}
-  
-  .merienda {
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-  }
-  @media only screen and (max-width: 600px){
-    .main{grid-column:2/12}}
+ 
+}

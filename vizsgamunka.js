@@ -2,22 +2,26 @@ $(document).ready(function () {
   $("#monsterCM").click(function () {
 
     $("#monsterszovegCM").slideToggle();
-    
-    $("#monsterszovegCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({       width: "400px", // Szélesség növelése
-      "border-bottom-width": "50px", // Alsó szél szélességének növelése
-      left: "-=100px" // Balra mozgatás
-  }, "slow");
 
+    $("#monsterszovegCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+
+    
 
   });
 
+  $(".visszagomb1").click(function(){ $("#monsterszovegCM").hide(1000)});
 
   $("#monsterNT").click(function () {
     $("#monsterszovegNT").slideToggle();
 
-    $("#monsterszovegNT").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px", });
+    $("#monsterszovegNT").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+   
   });
-
+  $(".visszagomb2").click(function(){ $("#monsterszovegNT").hide(1000)});
 
 
 
@@ -25,47 +29,65 @@ $(document).ready(function () {
   $("#monsterZCM").click(function () {
     $("#monsterszovegZCM").slideToggle();
 
-    $("#monsterszovegZCM").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px", });
+    $("#monsterszovegZCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+    
   });
-
+  $(".visszagomb3").click(function(){ $("#monsterszovegZCM").hide(1000)});
 
   $("#monsterUF").click(function () {
     $("#monsterszovegUF").slideToggle();
 
-    $("#monsterszovegUF").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px", });
+    $("#monsterszovegUF").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+   
   });
 
-
+  $(".visszagomb4").click(function(){ $("#monsterszovegUF").hide(1000)});
   $("#monsterUP").click(function () {
     $("#monsterszovegUP").slideToggle();
 
-    $("#monsterszovegUP").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px" });
+    $("#monsterszovegUP").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+   
   });
 
-
+  $(".visszagomb5").click(function(){ $("#monsterszovegUP").hide(1000)});
   $("#monsterUV").click(function () {
     $("#monsterszovegUV").slideToggle();
 
-    $("#monsterszovegUV").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px" });
+    $("#monsterszovegUV").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+  
   });
-
+  $(".visszagomb6").click(function(){ $("#monsterszovegUV").hide(1000)});
 
   $("#monsterRC").click(function () {
     $("#monsterszovegRC").slideToggle();
 
 
-    $("#monsterszovegRC").css("display", "inline-block", "text-align", "center").animate({ paddinBottom: "100px"});
+    $("#monsterszovegRC").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");
+    
   });
-
+  $(".visszagomb7").click(function(){ $("#monsterszovegRC").hide(1000)});
 
   $("#monsterUM").click(function () {
     $("#monsterszovegUM").slideToggle();
 
-        
-        $("#monsterszovegUM").css("display", "inline-block", "text-align", "center",).animate({ paddinBottom: "100px"});
-    });
 
-
-
-
+    $("#monsterszovegUM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
+      width: "460px", 
+      left: "-=100px"  }, "slow");;
+   
   });
+
+  $(".visszagomb8").click(function(){ $("#monsterszovegUM").hide(1000)});
+
+
+});
