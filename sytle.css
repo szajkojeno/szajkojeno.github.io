@@ -26,6 +26,7 @@
   text-align: center;
   height: 20%;
   font-size: 5rem;
+  
 }
 
 #logo {
@@ -40,6 +41,7 @@
   text-align: center;
   border: 2px solid white;
   background-color: rgb(20, 20, 20);
+  
   
 }
 
@@ -114,6 +116,7 @@ ul li {
 
   .fejlec {
     font-size: 3rem;
+    
   }
   
  

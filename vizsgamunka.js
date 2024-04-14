@@ -3,8 +3,8 @@ $(document).ready(function () {
 
     $("#monsterszovegCM").slideToggle();
 
-    $("#monsterszovegCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegCM").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+      width: "400px", 
       left: "-=100px"  }, "slow");
 
     
@@ -16,8 +16,8 @@ $(document).ready(function () {
   $("#monsterNT").click(function () {
     $("#monsterszovegNT").slideToggle();
 
-    $("#monsterszovegNT").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegNT").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");
    
   });
@@ -29,8 +29,8 @@ $(document).ready(function () {
   $("#monsterZCM").click(function () {
     $("#monsterszovegZCM").slideToggle();
 
-    $("#monsterszovegZCM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegZCM").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");
     
   });
@@ -39,8 +39,8 @@ $(document).ready(function () {
   $("#monsterUF").click(function () {
     $("#monsterszovegUF").slideToggle();
 
-    $("#monsterszovegUF").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegUF").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");
    
   });
@@ -49,8 +49,8 @@ $(document).ready(function () {
   $("#monsterUP").click(function () {
     $("#monsterszovegUP").slideToggle();
 
-    $("#monsterszovegUP").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegUP").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");
    
   });
@@ -59,8 +59,8 @@ $(document).ready(function () {
   $("#monsterUV").click(function () {
     $("#monsterszovegUV").slideToggle();
 
-    $("#monsterszovegUV").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegUV").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");
   
   });
@@ -70,8 +70,8 @@ $(document).ready(function () {
     $("#monsterszovegRC").slideToggle();
 
 
-    $("#monsterszovegRC").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegRC").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");
     
   });
@@ -81,8 +81,8 @@ $(document).ready(function () {
     $("#monsterszovegUM").slideToggle();
 
 
-    $("#monsterszovegUM").css("display", "inline-block", "text-align", "center").css("display", "inline-block", "text-align", "center").animate({
-      width: "460px", 
+    $("#monsterszovegUM").css("display", "inline-block", "text-align", "center","margin","40px").animate({
+     width: "400px", 
       left: "-=100px"  }, "slow");;
    
   });
