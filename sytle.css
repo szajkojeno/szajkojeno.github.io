@@ -2,21 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: black;
-  color: white;
+  
 }
 
 .container {
+  background-color: rgb(39, 38, 38);
+  color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.4fr 0.3fr 2.9fr 0.4fr;
+ 
   grid-auto-columns: 1fr;
   gap: 10px 10px;
   grid-auto-flow: row;
   grid-template-areas:
     "fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec"
+    "nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 "
+   
+    "main main main main main main main main main main main main "
     "nav nav nav nav nav nav nav nav nav nav nav nav"
-    "main main main main main main main main main main main main"
     "lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec";
 }
 
@@ -26,6 +29,12 @@
   text-align: center;
   height: 20%;
   font-size: 5rem;
+  border-bottom: 2px solid rgb(74, 72, 72);
+  background-color: black;
+  position:sticky ;
+  margin-top: 0;
+  
+  
   
 }
 
@@ -45,22 +54,41 @@
   
 }
 
-img {
+.nav1{grid-area: nav1;margin: auto;width: 80%;background-color: rgb(28, 28, 28);border: 1px solid black;}
+.nav1 div{background-color: rgb(74, 74, 74);display: inline;border: 2px solid black;padding: 85px 20px 0px 20px;cursor: pointer;width: 100%;}
+.nav1 div img{width: 10%;}
+.nav1 div:hover{background-color: rgb(53, 52, 52);}
+.classik{position: absolute;width: 100%; display: none;margin-left: 10%;margin-top: 50%; padding: auto;background-color: rgb(95, 90, 90);border:3px outset black;border-radius: 10px;}
+.classik img{display:inline;width: 80px;}
+.classik img:hover{width: 100px;}
+.ultra{position: absolute;width: 100%; display: none;margin-left: 20%;margin-top: 55%; padding: auto;background-color: rgb(95, 90, 90);border:3px outset black;border-radius: 10px;}
+.ultra img{display: inline;width: 80px;}
+.ultra img:hover{width: 100px;}
+.juicied{position: absolute;width: 100%; display: none;margin-left: 30%;margin-top: 60%;padding: auto;background-color: rgb(95, 90, 90);border:3px outset black;border-radius: 10px;}
+.juicied img{display: inline;width: 80px;}
+.juicied img:hover{width: 100px;}
+.rehab{position: absolute;width: 100%; display: none;margin-left: 40%; margin-top: 65%;padding: auto;background-color: rgb(95, 90, 90);border:3px outset black;border-radius: 10px;}
+.rehab img{display: inline;width: 80px;}
+.rehab img:hover{width: 100px;}
+ul{border-bottom: 2px solid black; margin-bottom: 10px;}
+ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  border-bottom: 2px solid greenyellow;
+}
+.nav ul li img {
   width: 50px;
   margin: 30px;
 }
 
-img:hover {
+.nav ul li img:hover {
   width: 70px;
  
 
 }
 
-ul li {
-  list-style-type: none;
-  display: inline;
-  text-align: center;
-}
+
 
  p {
   display: none;
@@ -70,13 +98,8 @@ ul li {
   margin-bottom: 10px;
   border: 2px outset white;
 }
-
-.mellekkep {
-  width: 50px;
-  float: right;
-  display: inline;
-  background-color: rgb(134, 130, 130);
-}
+.mainszoveg{margin-top: 40px ;border: 2px solid black;}
+.mainimg{display: inline;float: left;width: 80px;}
 
 .visszagomb {
   float: left;
@@ -88,19 +111,45 @@ ul li {
 .main {
   grid-area: main;
   text-align: center;
-  grid-column: 4/10;
+  grid-column: 4/11;
+  margin-top: 10%;
 }
 
-#kocka {
-  padding: 300px;
-  background-color: blanchedalmond;
-}
+
 
 .lablec {
   grid-area: lablec;
   text-align: center;
   background-color: rgb(51, 51, 51);
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
 }
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+h5{color: black;}
 
 .merienda {
   font-family: "Merienda", cursive;
@@ -118,8 +167,44 @@ ul li {
     font-size: 3rem;
     
   }
-  
+  .nav1 div{padding: 40px 15% 0px 0px;width: 50%;}
+
+  .izek{}
  
   
  
+}
+.email{padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;}
+  .email:hover {
+    opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
