@@ -127,6 +127,7 @@ p {
 /*idezetes szoveg*/
 .mainszoveg {
   margin-top: 40px;
+  padding-bottom:5%;
   border: 2px solid black;
 }
 
