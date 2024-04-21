@@ -43,7 +43,10 @@ nav a {
     background-color: rgb(81, 78, 78);
     color: white;
     text-decoration: none;
+    border: 2px solid black;
+    border-radius: 15px;
 }
+nav a:hover{background-color: rgb(62, 60, 60);}
 
 main {
     margin: 10%;
@@ -51,7 +54,9 @@ main {
     background-color: rgb(179, 179, 179);
     width: 80%;
 }
-
+.visszagomb{border: 2px solid rgb(115, 113, 113);
+border-radius: 10px;}
+.visszagomb:hover{background-color: #595757;}
 main div {
     border: 2px solid greenyellow;
     border-style: outset;
