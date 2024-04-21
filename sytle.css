@@ -50,18 +50,19 @@
 .nav1 {
   grid-area: nav1;
   margin: auto;
-  width: 80%;
+  width: 100%;
   background-color: rgb(28, 28, 28);
   border: 1px solid black;
 }
 .nav1 a{ background-color: rgb(74, 74, 74);text-decoration: none;color: white;}
-.nav1 div {
+.nav1 div {display: inline;
   background-color: rgb(74, 74, 74);
-  display: inline;
+  
   border: 2px solid black;
-  padding: 85px 20px 0px 20px;
+
   cursor: pointer;
-  width: 100%;
+  width: 90%;
+   padding-left: 25%;
 }
 
 .nav1 div img {
@@ -208,43 +209,3 @@ h5 {
   .nav ul li img:hover{width: 50px;}
 }
 
-.email {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.email:hover {
-  opacity: 0.7;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
