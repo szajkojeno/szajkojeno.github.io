@@ -265,7 +265,7 @@ h5 {
   .nav ul li img:hover {
     width: 50px;
   }
-  .nav1 div img {width:20%;}
+  .nav1 div img {width:auto;}
   .nav1cimek{display:inline; }
   .kezdokepek1{background: url(img/belepokepenergy.jpg);
     background-repeat: no-repeat;
