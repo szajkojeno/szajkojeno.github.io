@@ -68,6 +68,7 @@ main div p {
     float: left;
     width: 70%;
     color: white;
+    text-transform: uppercase;
 }
 
 footer {

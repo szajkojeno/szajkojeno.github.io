@@ -52,7 +52,7 @@
 .nav1 {
   grid-area: nav1;
   margin: auto;
-  width: 100%;
+  width:100%;
   background-color: rgb(28, 28, 28);
   border: 1px solid black;
 }
@@ -63,12 +63,26 @@
   border: 2px solid black;
 
   cursor: pointer;
-  width: 90%;
+  width: 100%;
    padding-left: 25%;
+   padding-top: 20%;
+   
 }
-
+.kezdokepek1{background: url(img/belepokepenergy.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;}
+  .kezdokepek2{background: url(img/belepokepultra.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;}
+    .kezdokepek3{background: url(img/belepokepjuicied.jpg);
+      background-repeat: no-repeat;
+      background-size: 60%;}
+      .kezdokepek4{background: url(img/belepokeprehab.jpg);
+        background-repeat: no-repeat;
+        background-size: 60%;}
 .nav1 div img {
   width: 10%;
+ filter: drop-shadow(5px 20px 30px  white); box-shadow: (30px 10px 4px #4444dd);
 }
 
 .nav1 div:hover {
