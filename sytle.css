@@ -59,11 +59,11 @@
 }
 
 .nav1 a {
- margin-right: 5px;
+
   text-decoration: none;
   color: white;
+
   width: 100%;
-  
   
 }
 
@@ -74,10 +74,10 @@
   border: 2px solid black;
 
   cursor: pointer;
-  margin-left:10% ;
-  margin-right:2% ;
+ padding-right:14% ;
+  
  
-  padding-left: 25%;
+  
   padding-top: 20%;
 
 }
@@ -86,6 +86,7 @@
   background: url(img/belepokepenergy.jpg);
   background-repeat: no-repeat;
   background-size: 60%;
+  background-position:right;
  
  
 }
@@ -94,6 +95,7 @@
   background: url(img/belepokepultra.jpg);
   background-repeat: no-repeat;
   background-size: 60%;
+  background-position:right;
  
 }
 
@@ -101,12 +103,15 @@
   background: url(img/belepokepjuicied.jpg);
   background-repeat: no-repeat;
   background-size: 60%;
+  background-position:right;
+  
 }
 
 .kezdokepek4 {
   background: url(img/belepokeprehab.jpg);
   background-repeat: no-repeat;
   background-size: 60%;
+  background-position:right;
  
 }
 
@@ -256,7 +261,7 @@ h5 {
 
   }
   .nav1{display: inline;}
-  .nav1 div {
+  .nav1 div {padding-right: 4%;
    
 
    margin: 0;
@@ -267,7 +272,7 @@ h5 {
   .nav ul li img:hover {
     width: 50px;
   }
-  .nav1 div img {width:80px;height: 190px;}
+  .nav1 div img {width:80px;height: 190px; min-width: none;}
 
   .kezdokepek1{background: url(img/belepokepenergy.jpg);
     background-repeat: no-repeat;
