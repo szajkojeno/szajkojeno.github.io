@@ -165,6 +165,8 @@ p {
   margin-bottom: 10px;
   border: 2px outset white;
 }
+a.osszesiz{padding: 4px;background-color: rgb(119, 118, 118);border: 2px solid black; border-radius: 15px;}
+a.osszesiz:hover{background-color: rgb(77, 74, 74);}
 .osszesizimek{display: block; font-size: larger; float: inline-start;width: 100%;}
 .visszagomb {
   float: left;
@@ -253,31 +255,31 @@ h5 {
     font-size: 3rem;
 
   }
-
+  .nav1{display: inline;}
   .nav1 div {
    
-    padding-left: 30%;
-    margin-left: 20%;
-    margin-right: 10%;
+
+   margin: 0;
     
     
   }
+  .osszesiz{float: inline-end;}
   .nav ul li img:hover {
     width: 50px;
   }
-  .nav1 div img {width:auto;}
-  .nav1cimek{display:inline; }
+  .nav1 div img {width:80px;height: 190px;}
+
   .kezdokepek1{background: url(img/belepokepenergy.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;float: inline-start;}
+    background-size: 100%;float: inline-start;}
   
   .kezdokepek2{background: url(img/belepokepultra.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;float: inline-start;}
+    background-size: 100%;float: inline-start;}
   .kezdokepek3{background: url(img/belepokepjuicied.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;float: inline-start;}
+    background-size: 100%;float: inline-start;}
   .kezdokepek4{background: url(img/belepokeprehab.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;float: inline-start;}
+    background-size: 100%;float: inline-start;}
 }
