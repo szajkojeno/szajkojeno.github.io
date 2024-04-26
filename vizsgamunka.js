@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+$(".elerhetoseglink").click(function(){$(".elerhetoseglink li").slideToggle()})
 
 
   $("#monsterCM").click(function () {

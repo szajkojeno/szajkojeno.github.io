@@ -114,6 +114,7 @@ footer {
   color: #333;
   text-decoration: none;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 .social-links a:hover {
