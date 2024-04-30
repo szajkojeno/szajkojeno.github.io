@@ -10,13 +10,14 @@ header {
   text-align: left;
   padding: 25%;
 }
+.logo{width:85%;}
 
 .kezdokep {
   float: right;
   width: 25%;
   display: inline;
 }
-
+h1{width: auto;}
 body {
   background-color: gray;
 }
