@@ -1,0 +1,26 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+h1{text-align: center; }
+h2{text-align: center;}
+.content{ text-align: center;}
+.content p{color: white; }
+#felsosor{width: 100%;}
+#felsosor .negyzet1, .negyzet2, .negyzet3{width: 120px;height: 120px;}
+
+#kozepsosor{width: 
+    100%; }
+    #kozepsosor .negyzet4, .negyzet5, .negyzet6{width: 120px;height: 120px;}
+
+#alsosor{width: 100%;}
+#alsosor .negyzet7, .negyzet8, .negyzet9{width: 120px;height: 120px;}
+
+
+
+.negyzet1,
+.negyzet2,
+.negyzet3,
+.negyzet4,
+.negyzet5,
+.negyzet6,
+.negyzet7,
+.negyzet8,
+.negyzet9{ border: 1px solid black; display: inline-block; font-size: xx-small; color: aliceblue;}
