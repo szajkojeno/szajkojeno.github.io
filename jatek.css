@@ -25,13 +25,3 @@ h2{text-align: center;}
 .negyzet8,
 .negyzet9{ border: 1px solid black; display: inline-block; font-size: xx-small; color: aliceblue;}
 
-@media only screen and (max-width: 600px){#felsosor{width: 100%;}
-#felsosor .negyzet1, .negyzet2, .negyzet3{width: 200px;height: 200px;}
-
-#kozepsosor{width: 
-    100%; }
-    #kozepsosor .negyzet4, .negyzet5, .negyzet6{width: 200px;height: 200px;}
-
-#alsosor{width: 100%;}
-#alsosor .negyzet7, .negyzet8, .negyzet9{width: 200px;height: 200px;}
-}
