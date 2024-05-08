@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  grid-auto-columns: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec fejlec"
+    "nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 nav1 "
+    "main main main main main main main main main main main main "
+    "nav nav nav nav nav nav nav nav nav nav nav nav"
+    "lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec lablec";
+}
+
+/*Fejléc*/
+.fejlec {
+  grid-area: fejlec;
+  text-align: center;
+  height: 20%;
+  
+  border-bottom: 2px solid rgb(74, 72, 72);
+  background-color: black;
+  display: inline;
+  margin-top: 0;
+
+}
+h1{font-size: 5rem;
+}
+.elerhetoseglink{padding: 5px;background-color: #333;border:1px solid white;color: white;text-decoration: none;float: right;cursor: pointer;}
+.elerhetoseglink li {display: none; color: white; }
+.elerhetoseglink li a{text-decoration: none;color: white;}
+.elerhetoseglink li a:hover{background-color: #333;width: 100%;}
+.elerhetoseglink:hover{background-color: #848383;color: rgb(232, 231, 230);}
+#logo {
+  display: inline;
+  width: 60px;
+  float: left;
+  border-radius: 0% 0% 40% 0%;
+}
+
+/*Fejléc vége*/
+
+
+
+/*Kezdő képek*/
+.nav1 {
+  grid-area: nav1;
+  margin: auto;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+  border: 1px solid black;
+}
+
+.nav1 a {
+
+  text-decoration: none;
+  color: white;
+
+  width: 100%;
+  
+}
+
+.nav1 div {
+  display: inline;
+  background-color: rgb(74, 74, 74);
+
+  border: 2px solid black;
+
+  cursor: pointer;
+ padding-right:14% ;
+  
+ 
+  
+  padding-top: 20%;
+
+}
+
+.kezdokepek1 {
+  background: url(img/belepokepenergy.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position:right;
+ 
+ 
+}
+
+.kezdokepek2 {
+  background: url(img/belepokepultra.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position:right;
+ 
+}
+
+.kezdokepek3 {
+  background: url(img/belepokepjuicied.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position:right;
+  
+}
+
+.kezdokepek4 {
+  background: url(img/belepokeprehab.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position:right;
+ 
+}
+
+.nav1 div img {
+  width: 10%;
+  filter: drop-shadow(5px 20px 30px white);
+  box-shadow: (30px 10px 4px #4444dd);
+}
+
+.nav1 div:hover {
+  background-color: rgb(53, 52, 52);
+}
+
+/*Kezdőképek vége*/
+
+/*Az összes iz*/
+.nav {
+  grid-area: nav;
+  text-align: center;
+  border: 2px solid white;
+  background-color: rgb(20, 20, 20);
+
+
+}
+
+ul {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  border-bottom: 2px solid greenyellow;
+}
+
+.nav ul li img {
+  width: 50px;
+  margin: 30px;
+}
+
+.nav ul li img:hover {
+  width: 55px;
+  background-color: #333;
+
+}
+
+
+
+p {
+  display: none;
+  background-color: rgb(134, 130, 130);
+  color: rgb(246, 242, 242);
+  width: auto;
+  margin-bottom: 10px;
+  border: 2px outset white;
+}
+a.osszesiz{padding: 2px; background-color: rgb(119, 118, 118);border: 2px solid black; border-radius: 15px;}
+a.osszesiz:hover{background-color: rgb(77, 74, 74);}
+.osszesizimek{display: block; font-size: larger; float: inline-start;width: 100%;}
+.visszagomb {
+  float: left;
+  display: inline;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+/*az összes iz vége*/
+/*idezetes szoveg*/
+.mainszoveg {
+  margin-top: 40px;
+  padding-bottom: 5%;
+  border: 2px solid black;
+}
+
+.mainimg {
+  display: inline;
+  float: left;
+  width: 80px;
+}
+
+/*idezetes szoveg vege*/
+/*fötartalom*/
+.main {
+  grid-area: main;
+  text-align: center;
+  grid-column: 4/11;
+  margin-top: 10%;
+  background-color: #333;
+}
+
+
+/*lábléc*/
+.lablec {
+  grid-area: lablec;
+  text-align: center;
+  background-color: rgb(51, 51, 51);
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight:bold;
+  font-size: 2rem;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+h5 {
+  color: black;
+}
+
+/*lábléc vége*/
+
+
+
+
+
+.merienda {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .main {
+    grid-column: 2/12
+  }
+
+  .fejlec {
+    font-size: 3rem;
+
+  }
+  .nav1{display: inline;}
+  .nav1 div {padding-right: 3%;
+   
+
+   margin: 0;
+    
+    
+  }
+  .osszesiz{float: inline-end;}
+  .nav ul li img:hover {
+    width: 50px;
+  }
+  .nav1 div img {width:80px;height: 190px; min-width: none;}
+
+  .kezdokepek1{background: url(img/belepokepenergy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;float: inline-start;}
+  
+  .kezdokepek2{background: url(img/belepokepultra.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;float: inline-start;}
+  .kezdokepek3{background: url(img/belepokepjuicied.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;float: inline-start;}
+  .kezdokepek4{background: url(img/belepokeprehab.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;float: inline-start;}
+    .elerhetoseglink{font-size:small;}
+}
