@@ -49,7 +49,6 @@ $(document).ready(function () {
         if($(".negyzet1, .negyzet5, .negyzet9").text()==="XXX"){$("h2").text("A X nyert! Az oldal 3 másodperc mulva újraindul"),$(".negyzet1, .negyzet5, .negyzet9").css("background-image",  xatlos2),setTimeout(function() {location.reload();},3000)}
         if($(".negyzet3, .negyzet5, .negyzet7").text()==="XXX"){$("h2").text("A X nyert! Az oldal 3 másodperc mulva újraindul"),$(".negyzet3, .negyzet5, .negyzet7").css("background-image",  xatlos1),setTimeout(function() {location.reload();},3000)}
 
-        if($(".negyzet1, .negyzet2, .negyzet3, .negyzet4, .negyzet5, .negyzet6, .negyzet7, .negyzet8, .negyzet9").text()==="XXXXXOOOO"){setTimeout(function() {location.reload();},3000)}
-        if($(".negyzet1, .negyzet2, .negyzet3, .negyzet4, .negyzet5, .negyzet6, .negyzet7, .negyzet8, .negyzet9").text()==="XXXXOOOOO"){setTimeout(function() {location.reload();},3000)}
+       
     });
 });
