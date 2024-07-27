@@ -8,3 +8,4 @@ ul li{display: none;}
 .monsterek{width: 100px;height: 245px; margin: 0 auto;display: block;}
 .ar{text-align: end;}
 footer{background-color: rgb(97, 94, 94);color: aliceblue;}
+@media only screen and (max-width:600px){.kocka{display: block; margin: 0 auto;margin-top: 10px;}}
